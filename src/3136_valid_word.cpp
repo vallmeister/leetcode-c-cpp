@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-    bool isValid(string word) {
+    bool isValid(std::string word) {
         if (word.length() < 3) {
             return false;
         }
